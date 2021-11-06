@@ -20,6 +20,8 @@ public class BlockSpawner : MonoBehaviour {
 
 	}
 
+ 
+
 	void SpawnBlocks ()
 	{
 		int randomIndex = Random.Range(0, spawnPoints.Length);
